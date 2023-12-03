@@ -13,10 +13,10 @@ export default function Header(){
                     </div>      
 
                     <div class="socials mt-4">
-                        <a class="social-item" href="javascript:void(0)"><i class="ti-facebook"></i></a>
-                        <a class="social-item" href="javascript:void(0)"><i class="ti-google"></i></a>
-                        <a class="social-item" href="javascript:void(0)"><i class="ti-github"></i></a>
-                        <a class="social-item" href="javascript:void(0)"><i class="ti-twitter"></i></a>
+                        {/* <a className="social-item" href="javascript:void(0)"><i class="ti-facebook"></i></a>
+                        <a className="social-item" href="javascript:void(0)"><i class="ti-google"></i></a>
+                        <a className="social-item" href="javascript:void(0)"><i class="ti-github"></i></a>
+                        <a className="social-item" ><i class="ti-twitter"></i></a> */}
                     </div>
                 </div>              
                 <div class="img-holder">

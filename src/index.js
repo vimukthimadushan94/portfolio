@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './assets/css/steller.css';
-import './assets/vendors/themify-icons/css/themify-icons.css';
+// import '../public/assets/css/steller.css';
+// import '../public/assets/vendors/themify-icons/css/themify-icons.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
