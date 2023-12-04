@@ -42,24 +42,21 @@ export default function NavBar(){
                             offset={-70} // Adjust this value based on your layout
                             duration={500}><span className="nav-link">Portfolio</span></Link>
                         <li class="nav-item"></li>
-                        <Link
+                        {/* <Link
                             className="nav-item"
                             to="testmonial"
                             spy={true}
                             smooth={true}
                             offset={-70} // Adjust this value based on your layout
                             duration={500}><span className="nav-link">Testmonial</span></Link>
-                        <li class="nav-item"></li>
+                        <li class="nav-item"></li> */}
                         <Link
                             className="nav-item"
                             to="contact"
                             spy={true}
                             smooth={true}
                             offset={-70} // Adjust this value based on your layout
-                            duration={500}><span className="nav-link">Contact</span></Link>
-                        <li class="nav-item">
-                            <a class="- btn btn-primary rounded ml-4" href="components.html">Copmonents</a>
-                        </li>
+                            duration={500}><span className="- btn btn-primary rounded ml-4">Contact</span></Link>
                     </ul>
                 </div>
             </div>          

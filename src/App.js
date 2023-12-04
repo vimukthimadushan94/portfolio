@@ -7,7 +7,7 @@ import NavBar from "./components/NavBar";
 import Portfolio from "./components/Portfolio";
 import Service from "./components/Service";
 import Skills from "./components/Skills";
-import Testimonial from "./components/Testimonial";
+// import Testimonial from "./components/Testimonial";
 
 
 function App() {
@@ -19,7 +19,7 @@ function App() {
         <Service/>
         <Skills/>
         <Portfolio/>
-        <Testimonial/>
+        {/* <Testimonial/> */}
         <HireMe/>
         <Contact/>
         <Footer/>
