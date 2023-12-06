@@ -13,7 +13,7 @@ export default function Contact(){
 
     const submitForm = async (data)=>{
         setLoading(true)
-        const response = await fetch('http://localhost:8080/api/contact-us',{
+        const response = await fetch(`${process.env.REACT_APP_BACKEND_URL}/api/contact-us`,{
                 method:"POST",
                 headers:{
                     'Content-Type': 'application/json',
