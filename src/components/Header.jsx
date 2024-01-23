@@ -21,9 +21,9 @@ export default function Header() {
               <button class="btn btn-primary rounded">HIRE ME</button>
             </Link>
 
-            <a href="assets/cv/CV2-madushan.pdf" target="__blank">
+            {/* <a href="assets/cv/CV2-madushan.pdf" target="__blank">
               <button class="btn btn-dark rounded">DOWNLOAD CV</button>
-            </a>
+            </a> */}
           </div>
 
           <div class="socials mt-4">

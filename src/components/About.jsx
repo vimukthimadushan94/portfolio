@@ -1,3 +1,4 @@
+import { Link } from "react-scroll";
 export default function About() {
   return (
     <section id="about" class="section mt-3">
@@ -20,9 +21,16 @@ export default function About() {
               interfaces, and excel in Laravel OctoberCMS for building strong
               backends that drive web applications.
             </p>
-            <a href="assets/cv/CV2-madushan.pdf" target="__blank">
-              <button class="btn btn-primary rounded mt-3">DOWNLOAD CV</button>
-            </a>
+            <Link
+              className="nav-item"
+              to="contact"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+            >
+              <button class="btn btn-primary rounded">HIRE ME</button>
+            </Link>
           </div>
         </div>
       </div>
